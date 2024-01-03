@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(230, 168, 213);
+    color: rgb(228, 45, 118);
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Lato', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+    font-size: 30px;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(228, 92, 147);
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 0px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+a {
+    color: rgb(218, 39, 137)
+}
+
+a:hover {
+    color: rgb(189, 0, 126);
+    transition: 0.3s all;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 95px;
+    line-height: 10px;
+}
+
+p {
+    margin-top: 50px;
+    color: rgb(159, 59, 137);
+    font-size: large;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 25px;
+
+}
+
+span {
+    color: rgb(218, 39, 137);
+}
+
+input {
+    padding: 15px;
+    border-radius: 50px;
+    border-color: rgb(253, 141, 197);
+    border-style: none;
+    border-width: 20px;
+    font-size: medium;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+}
+
+img {
+    width: 500px;
+}
